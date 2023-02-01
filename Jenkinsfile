@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t rahil/scramjet .'
+                sh 'docker build -t rahilgulaliyev/scramjet .'
             }
         }
         stage('Login DockerHub') {
